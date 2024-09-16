@@ -23,7 +23,7 @@ df=spark.createDataFrame(data)
 df.show()
 
 # data = spark.read.csv("data/temp.csv")
-df = spark.read.csv('test/data/temp.csv', header=True, inferSchema=True)
+df = spark.read.csv('data/temp.csv', header=True, inferSchema=True)
 df.show()
 
 
