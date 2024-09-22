@@ -58,4 +58,4 @@ df5.show()
 df5 = df.groupBy("name").agg(min(df.age).alias("min_age"))
 df5.show()
 
-df6 = df
+df5.
